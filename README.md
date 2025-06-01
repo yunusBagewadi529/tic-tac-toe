@@ -22,3 +22,10 @@ This is a mini project I created to practice core frontend development concepts.
 - Win/draw detection logic
 - Reset game functionality
 - Responsive design
+
+## 🎯 Play the Game
+
+Want to try it out?  
+👉 **[Click here to play the Tic Tac Toe game in your browser.](https://yunusBagewadi529.github.io/tic-tac-toe/)**
+
+No setup needed — just open the link and start playing!
