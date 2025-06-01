@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Play-Regular";
+  src: url(Play/Play-Regular.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Play-Bold";
+  src: url(Play/Play-Bold.ttf) format(truetype);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #ddbea9;
+  font-family: "Play-Regular";
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#status {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.cell {
+  background-color: #ffe8d6;
+  border: 2px solid #896c59;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  font-family: "Play-Bold";
+}
+
+.cell:hover {
+  background-color: #e9d1b0;
+}
+
+.winning {
+  background-color: #cb997e !important;
+  color: initial;
+}
+
+#resetBtn {
+  background-color: #c1b4a9;
+  font-family: "Play-Bold";
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
